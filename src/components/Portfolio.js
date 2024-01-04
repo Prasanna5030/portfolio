@@ -4,8 +4,10 @@ import todolist from '../assets/portfolio/Todolist.jpg';
 import clientmeeting from '../assets/portfolio/homepage.png';
 import cocktailsdb from '../assets/portfolio/cocktailsdb.png';
 import portfolio from '../assets/portfolio/myportfolio.png';
+import node from '../assets/portfolio/installNode.jpg';
 const Portfolio = () => {
-    const handleDemo=(id)=>{
+    const handleDemo=(link)=>{
+        window.open(link , '_blank');
 
     }
     const handleCode=(url)=>{
@@ -16,28 +18,44 @@ const Portfolio = () => {
         {
             id: 1,
             src: netflix,
-            url:"https://github.com/Prasanna5030/NetflixGPT"
+            url:"https://github.com/Prasanna5030/NetflixGPT",
+            link:"https://netflixgptsearch.vercel.app/",
+            technologies:["React", "JS" , "TailWind"]
 
         },
         {
             id: 2,
             src: todolist,
-            url:"https://github.com/Prasanna5030/ToDolist-app"
+            url:"https://github.com/Prasanna5030/ToDolist-app",
+            technologies:["Node", "Express JS" , "CSS"]
+
         },
         {
             id: 3,
             src: clientmeeting,
-            url:"https://github.com/Prasanna5030/alphaArchy"
+            url:"https://github.com/Prasanna5030/alphaArchy",
+            link:"https://alphaarchy.netlify.app/",
+            technologies:["Angular", "CSS" , "HTML"]
+
         }, {
             id: 4,
             src: cocktailsdb,
-            url: "https://github.com/Prasanna5030/react-js/tree/master"
+            url: "https://github.com/Prasanna5030/react-js/tree/master",
+            link:"https://thecocktailsdata.netlify.app/",
+            technologies:["React", "JS" , "CSS"]
+
         }, {
             id: 5,
             src: portfolio,
+            url:"https://github.com/Prasanna5030/portfolio",
+            technologies:["React", "JS" , "TailWind"]
+
         }, {
             id: 6,
-            src: netflix,
+            src: node,
+            url:"https://github.com/Prasanna5030/ToDolist-app",
+            technologies:["Node", "Express JS" , "CSS"]
+
         }
     ]
     return (
@@ -51,13 +69,16 @@ const Portfolio = () => {
                 <div className="grid sm:px-0 sm:grid-cols-2 md:grid-cols-3 gap-8 px-12">
                     
                     {
-                        portfolios.map(({id ,src, url})=>{
+                        portfolios.map(({id ,src, url, link, technologies})=>{
                             return(
                                 <div key={id} className='md:my-5'>
+                                <h1 className="flex flex-row justify-between text-xl">{ technologies.map(item=> {
+                                    return <span className="">{item}</span>
+                                })}</h1>
                                 <img src={src} alt="img" className="rounded-md duration-200 hover:scale-110 md:h-[80%] md:object-cover" />
         
                                 <div className="flex items-center justify-center ">
-                                    <button className='bg-yellow-500 rounded-sm w-1/2 px-6 py-2 border shadow-md hover:shadow-white duration-300' onClick={()=>handleDemo(id)}>Demo</button>
+                                    <button className='bg-yellow-500 rounded-sm w-1/2 px-6 py-2 border shadow-md hover:shadow-white duration-300' onClick={()=>handleDemo(link)}>Demo</button>
                                     <button className='bg-yellow-500 rounded-sm w-1/2 px-6 py-2 border shadow-md hover:shadow-white duration-300'onClick={()=>handleCode(url)}>Code</button>
                                 </div>
                             </div>

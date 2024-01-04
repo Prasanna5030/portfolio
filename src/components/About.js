@@ -9,14 +9,14 @@ const About = () => {
                 </div>
                 <div>
                     <p className='text-xl mt-20'>
-
-                        LOREM IPSUM GENERATOR
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    Hi there , I'm Prasanna Kumar and I'm a Front-end Developer. I have spent 2+ years working across different areas of digital design and developing UI/UX
+                    I have developed many web applications using javascript frameworks such as Angular JS and React JS
+                    and I'm also learning back-end technologies Java and python to became a passionate Full-stack Devloper.     
+                    </p>
                 </div>
                 <div>
                 <p className='text-xl mt-5'>
-                    LOREM IPSUM GENERATOR
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  Out of the office you'll find me playing cricket, watching movies.my hobbies also include travelling and riding bikes </p>
                 </div>
             </div>
         </div>

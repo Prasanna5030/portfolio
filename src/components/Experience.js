@@ -6,6 +6,7 @@ import javascript from '../assets/javascript.png';
 import reactimg from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
 import github from '../assets/github.png';
+import angular from '../assets/angularjs.png'
 
 
 
@@ -54,6 +55,12 @@ const Experience = () => {
             src:github,
             title:'GITHUB',
             style:'shadow-gray-100'
+        },
+        {
+            id:8,
+            src:angular,
+            title:'Angular JS',
+            style:'shadow-red-500'
         },
     ]
 
