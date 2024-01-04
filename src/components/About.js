@@ -9,7 +9,7 @@ const About = () => {
                 </div>
                 <div>
                     <p className='text-xl mt-20'>
-                    Hi there , I'm Prasanna Kumar and I'm a Front-end Developer. I have spent 2+ years working across different areas of digital design and developing UI/UX
+                    Hello everyone , I'm Prasanna Kumar and I'm a Front-end Developer. I have spent 2+ years working across different areas of digital design and developing UI/UX
                     I have developed many web applications using javascript frameworks such as Angular JS and React JS
                     and I'm also learning back-end technologies Java and python to became a passionate Full-stack Devloper.     
                     </p>
