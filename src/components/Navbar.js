@@ -42,7 +42,7 @@ const Navbar = () => {
       
       
         <ul className='hidden md:flex text-xl'>
-        {links.map(({id , link}) => <li key={id} className="cursor-pointer px-4 hover:scale-110 duration-200"> <Link to={link} smooth duration={500}>{link}</Link></li>
+        {links.map(({id , link}) => <li key={id} className="cursor-pointer px-4 hover:scale-110 duration-500 hover:underline-offset-2 hover:underline uppercase"> <Link to={link} smooth duration={500}>{link}</Link></li>
         )} 
         </ul>    
         <div className=' px-4 md:hidden z-10' onClick={handleNavItems}>
