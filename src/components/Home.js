@@ -4,8 +4,8 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md"
 import { Link } from 'react-scroll'
 const Home = () => {
     return (
-        <div name="home" className='bg-gradient-to-b from-black via-black to-gray-800 h-screen w-full'>
-            <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 text-white md:flex-row'>
+        <div name="home" className='bg-white text-black h-screen w-full'>
+            <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 text-black md:flex-row'>
                 <div className="flex flex-col justify-center h-full mt-[5%] ">
                     <h1 className="text-4xl py-4 md:py-0 sm:text-7xl font-bold animate-pulse ">Hi there, I'm Prasanna Kumar</h1>
                     <p className='text-gray-500 py-4 max-w-md' > I have nearly 2 years of experience in building and designing software web application
