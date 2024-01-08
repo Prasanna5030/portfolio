@@ -1,13 +1,32 @@
 import React from 'react'
 import img from "../assets/newimgs.png"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md"
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import '../index.scss';
 const Home = () => {
     return (
         <div name="home" className='bg-white text-black h-screen w-full'>
             <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 text-black md:flex-row'>
                 <div className="flex flex-col justify-center h-full mt-[5%] ">
-                    <h1 className="text-4xl py-4 md:py-0 sm:text-7xl font-bold animate-pulse ">Hi there, I'm Prasanna Kumar</h1>
+                    
+                    
+<div class="content">
+<div class="content__container">
+  <p class="content__container__text text-black md:text-5xl">
+    Hello
+  </p>
+  
+  <ul class="content__container__list md:text-5xl">
+    <li class="content__container__list__item">world !</li>
+    <li class="content__container__list__item">there !</li>
+    <li class="content__container__list__item">users !</li>
+    <li class="content__container__list__item">everybody !</li>
+
+  </ul>
+</div>
+</div>
+<h1 className="text-4xl py-4 md:py-0 sm:text-6xl font-bold animate-pulse md:mt-[25%] mt-[60%] "> This is Prasanna Kumar</h1>
+
                     <p className='text-gray-500 py-4 max-w-md' > I have nearly 2 years of experience in building and designing software web application
                         I'm good in technologies like React JS, Angular JS ,tailwind css and  Node JS  . and I'm also learning backend technologies java and python to became a full stack developer
                     </p>
