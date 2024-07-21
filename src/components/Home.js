@@ -27,8 +27,7 @@ const Home = () => {
 </div>
 <h1 className="text-4xl py-4 md:py-0 sm:text-6xl font-bold animate-pulse md:mt-[25%] mt-[60%] "> This is Prasanna Kumar</h1>
 
-                    <p className='text-gray-500 py-4 max-w-md' > I have nearly 2 years of experience in building and designing software web application
-                        I'm good in technologies like React JS, Angular JS ,tailwind css and  Node JS  . and I'm also learning backend technologies java and python to became a full stack developer
+                    <p className='text-gray-500 py-4 max-w-md' >a passionate Full Stack Developer with one year of hands-on experience in building robust web applications. My expertise spans across front-end and back-end technologies, enabling me to deliver comprehensive and efficient solutions.
                     </p>
                 
                     <div>

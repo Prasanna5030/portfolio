@@ -13,7 +13,7 @@ font-family: 'Raleway', sans-serif;
   }
 }
 
-.signTitle{
+/* .signTitle{
 
     background-image: linear-gradient(
     -255deg,
@@ -33,7 +33,7 @@ font-family: 'Raleway', sans-serif;
   animation: textclip 3s linear infinite;
   display: inline-block;
     
-}
+} */
 @keyframes textclip {
   to {
     background-position: 200% center;

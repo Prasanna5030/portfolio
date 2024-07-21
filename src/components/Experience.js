@@ -6,7 +6,8 @@ import javascript from '../assets/javascript.png';
 import reactimg from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
 import github from '../assets/github.png';
-import angular from '../assets/angularjs.png'
+import angular from '../assets/angularjs.png';
+import spring from '../assets/spring.boot.png';
 
 
 
@@ -62,6 +63,12 @@ const Experience = () => {
             title:'Angular JS',
             style:'shadow-red-500 bg-red-800 '
         },
+        {
+            id:9,
+            src:spring,
+            title:'SpringBoot',
+            style:'shadow-green-500 bg-gradient-to-r from-green-600 to-black'
+        }
     ]
 
     return (

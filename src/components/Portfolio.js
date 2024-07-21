@@ -5,6 +5,7 @@ import clientmeeting from '../assets/portfolio/homepage.png';
 import cocktailsdb from '../assets/portfolio/cocktailsdb.png';
 import portfolio from '../assets/portfolio/myportfolio.png';
 import node from '../assets/portfolio/installNode.jpg';
+import foodOrderingApp from '../assets/portfolio/home-page.png'
 const Portfolio = () => {
     const handleDemo=(link)=>{
         window.open(link , '_blank');
@@ -56,6 +57,11 @@ const Portfolio = () => {
             url:"https://github.com/Prasanna5030/ToDolist-app",
             technologies:["Node", "Express JS" , "CSS"]
 
+        },{
+            id:7,
+            src: foodOrderingApp,
+            url:"https://github.com/Prasanna5030/Food-Ordering-App",
+            technologies:["SpringBoot","Angular", "Java"]
         }
     ]
     return (
