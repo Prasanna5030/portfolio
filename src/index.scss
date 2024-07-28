@@ -307,3 +307,23 @@ body {
       // You can define a value and calculate the other if you want change speed or the number of lines
     
   }
+
+  .typing {
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    animation:
+        typing 4s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
