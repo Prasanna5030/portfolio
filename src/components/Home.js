@@ -25,7 +25,7 @@ const Home = () => {
   </ul>
 </div>
 </div>
-<h1 className="text-4xl py-4 md:py-0 sm:text-4xl font-bold animate-pulse md:mt-[25%] mt-[60%] typing "> This is Prasanna Kumar</h1>
+<h1 className="text-4xl py-4 md:py-0 sm:text-4xl font-bold animate-pulse md:mt-[25%] mt-[60%] typing"> Prasanna Kumar...</h1>
 
                     <p className='text-gray-500 py-4 max-w-md' >a passionate Full Stack Developer with one year of hands-on experience in building robust web applications. My expertise spans across front-end and back-end technologies, enabling me to deliver comprehensive and efficient solutions.
                     </p>
